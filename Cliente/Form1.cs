@@ -21,7 +21,7 @@ namespace Cliente
         TcpClient cliente;
         NetworkStream ns;
         Thread t = null;
-        private const string hostName = "192.168.0.2"; //change for conection
+        private const string hostName = "192.168.0.2"; //change for connection
 
         public void execucao()
         {
